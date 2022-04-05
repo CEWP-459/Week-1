@@ -40,3 +40,16 @@ var_dump($result1, $result2);
 
 echo "Hi my name is $name and I am {$age} years old"; //String Interpolation
 
+//Arrays
+$fruits = array("apple", "mango", "banana");
+echo $fruits; //error array to string conversion
+var_dump($fruits);
+var_dump($fruits[0], $fruits[2], $fruits[3]);
+
+$fruits2 = [1 => "apple", 5 => "mango", "banana"]; //manually assigning indexes to arrays
+var_dump($fruits2);
+
+$fruits3 = array("one" => "apple", "two" => "mango", "three" => "banana"); //associative arrays
+var_dump($fruits3);
+var_dump($fruits3["three"]);
+
