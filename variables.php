@@ -53,3 +53,25 @@ $fruits3 = array("one" => "apple", "two" => "mango", "three" => "banana"); //ass
 var_dump($fruits3);
 var_dump($fruits3["three"]);
 
+$mixed_array = [
+    "string" => "apple",
+    "integer" => 12,
+    "float" => 23.67,
+    "empty" => null,
+    "boolean" => false
+];
+var_dump($mixed_array); //array can contain any datatype.
+
+$variable_array = [$name, $age];
+var_dump($variable_array); 
+
+$md_array = [
+    "Alice" => [23, "ACC"],
+    "Luc" => [30, "ENG"],
+    "Bruno" => [45, "ADM"]
+];
+var_dump($md_array); 
+var_dump($md_array["Alice"][1], $md_array["Luc"][1], $md_array["Bruno"][1]);
+
+
+
