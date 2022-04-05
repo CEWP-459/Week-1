@@ -73,5 +73,11 @@ $md_array = [
 var_dump($md_array); 
 var_dump($md_array["Alice"][1], $md_array["Luc"][1], $md_array["Bruno"][1]);
 
+foreach ($mixed_array as $ma) { //printing each item in array
+    echo $ma . ",";
+}
 
+foreach ($mixed_array as $index => $ma) { //printing each index and the value in the array
+    echo $ma . "-" . $index . ",";
+}
 
