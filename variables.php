@@ -81,3 +81,13 @@ foreach ($mixed_array as $index => $ma) { //printing each index and the value in
     echo $ma . "-" . $index . ",";
 }
 
+//How can we not print the last ","
+$counter = 0;
+foreach ($mixed_array as $index => $ma) { 
+    if ($counter == count($mixed_array) - 1) {
+        echo $ma . "-" . $index;
+    } else {
+        echo $ma . "-" . $index . ",";
+        $counter++;
+    }
+}
