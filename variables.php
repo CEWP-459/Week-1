@@ -91,3 +91,5 @@ foreach ($mixed_array as $index => $ma) {
         $counter++;
     }
 }
+
+VAR_DUMP("s"); //syntax highlighting doesn't work but it is case insensitive:)
